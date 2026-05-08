@@ -287,32 +287,33 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--text-primary
 </div>
 
 <script>
-let keyDates=[{label:"Raquel call",date:"2025-05-04"},{label:"Manuscript returns",date:"2025-05-07"}];
+let keyDates=[{label:"Raquel design starts",date:"2026-07-01"},{label:"Simon illustrations due",date:"2026-08-01"}];
 const phases=[
   {title:"Editorial",tasks:[
     {id:"e1",label:"Write manuscript",status:"done"},
     {id:"e2",label:"Read through and refine",status:"done"},
     {id:"e3",label:"Compile Word document with ISBNs and publishing name",status:"done"},
     {id:"e4",label:"Send manuscript and brief to Andrew",status:"done"},
-    {id:"e5",label:"Andrew copy edits manuscript",status:"active",meta:{badge:"active",text:"back this weekend"}},
-    {id:"e6",label:"Review Andrew's tracked changes and notes",status:"todo",meta:{badge:"pending",text:"after this weekend"}},
-    {id:"e7",label:"Make final manuscript revisions",status:"todo",meta:{badge:"pending",text:"after this weekend"}},
+    {id:"e5",label:"Andrew copy edits manuscript",status:"done"},
+    {id:"e6",label:"Review Andrew's tracked changes and notes",status:"done"},
+    {id:"e7",label:"Make final manuscript revisions",status:"done"},
   ]},
   {title:"Design",tasks:[
     {id:"d1",label:"Vision document sent to Raquel",status:"done"},
-    {id:"d2",label:"Call with Raquel",status:"active",meta:{badge:"active",text:"May 4"}},
-    {id:"d3",label:"Get technical specifications from Raquel",status:"todo",meta:{badge:"pending",text:"after May 4"}},
-    {id:"d4",label:"Confirm designer and agree terms",status:"todo",meta:{badge:"pending",text:"pending"}},
-    {id:"d5",label:"Designer begins interior layout and cover",status:"todo",meta:{badge:"pending",text:"TBC"}},
+    {id:"d2",label:"Call with Raquel",status:"done"},
+    {id:"d3",label:"Get technical specifications from Raquel",status:"active",meta:{badge:"active",text:"requested"}},
+    {id:"d4",label:"Confirm designer and agree terms",status:"active",meta:{badge:"active",text:"July start agreed"}},
+    {id:"d4b",label:"Sign NDA with Raquel",status:"active",meta:{badge:"active",text:"to sign"}},
+    {id:"d5",label:"Designer begins interior layout and cover",status:"todo",meta:{badge:"pending",text:"July 2026"}},
     {id:"d6",label:"Review sample spreads — BLAD stage",status:"todo",meta:{badge:"pending",text:"TBC"}},
     {id:"d7",label:"Sign off final design",status:"todo",meta:{badge:"pending",text:"TBC"}},
   ]},
   {title:"Illustration",tasks:[
     {id:"i1",label:"Simon Hook confirmed as illustrator",status:"done"},
-    {id:"i2",label:"Pass Raquel's technical specs to Simon",status:"todo",meta:{badge:"pending",text:"after May 4"}},
-    {id:"i3",label:"Confirm Simon's timeline",status:"todo",meta:{badge:"pending",text:"after May 4"}},
-    {id:"i4",label:"Simon completes 10 illustrations",status:"todo",meta:{badge:"pending",text:"TBC"}},
-    {id:"i5",label:"Illustrations delivered to designer",status:"todo",meta:{badge:"pending",text:"TBC"}},
+    {id:"i2",label:"Pass Raquel's technical specs to Simon",status:"active",meta:{badge:"active",text:"specs requested"}},
+    {id:"i3",label:"Confirm Simon's timeline",status:"done"},
+    {id:"i4",label:"Simon completes 10 illustrations",status:"todo",meta:{badge:"pending",text:"August 2026"}},
+    {id:"i5",label:"Illustrations delivered to designer",status:"todo",meta:{badge:"pending",text:"August 2026"}},
   ]},
   {title:"Publishing & Legal",tasks:[
     {id:"p1",label:"The Victoverse Press established as imprint",status:"done"},
